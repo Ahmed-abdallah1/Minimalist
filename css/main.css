@@ -1,0 +1,1355 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif !important;
+}
+nav{
+    width: 100%;
+    background-color: white;
+    padding-top: 12px;
+    z-index: 4555555550;
+    position: fixed;
+    top: 0;
+}
+nav .nav-head{
+    width: 87%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+nav .nav-head ul{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 18px;
+    margin-right: -30px;
+}
+nav .nav-head ul li{
+    list-style:none;
+}
+.toglar i {
+    display: none;
+}
+nav .nav-head ul li a{
+    text-decoration: none;
+    padding: 0px 30px 10px;
+    color: #404040;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+nav .nav-head ul li a:hover{
+    border-bottom: 2px solid green;
+    color: rgb(100, 209, 198);
+}
+nav .nav-head .logo{
+    display: flex;
+    justify-content: center;
+    margin-left: 20px;
+}
+nav .nav-head .logo h2 {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+nav .nav-head .logo h2 a{
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+    color: rgb(87, 205, 193);
+    cursor: pointer;
+}
+.main nav .nav-head .logo img{
+    width: 50px;
+}
+.head{
+    margin-top: 85px;
+    text-align: center;
+    padding-top: 100px;
+    height: 55vh;
+    background-image: linear-gradient(180deg, rgba(100, 209, 198, 0.55), rgba(100, 209, 198, 0.55)),url(../images/download1.jpg);
+    background-position: 0% 0%, 50% 80%;
+    color: #fff;
+}
+.head h1{
+    font-size: 45px;
+    letter-spacing: 2px;
+    margin-bottom: 70px;
+    position: relative;
+}
+.head h1::after{
+    height: 3px;
+    width: 80px;
+    background-color: #fff;
+    margin:30px auto;
+    position: absolute;
+    top: 100px;
+    left: 47.5%;
+    content: "";
+}
+.head  p{
+    color: hsla(0, 0%, 100%, 0.81);
+    font-size: 18px;
+    font-style: italic;
+}
+.color{
+    background-color: #fefec9;
+    width: 100%;
+    height: auto;
+    padding-bottom: 20px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+ .color img{
+    width:50px;
+}
+.x-icon{
+    margin: -26px auto 30px auto;
+}
+.color p{
+    text-align: center;
+    margin-bottom: 40px;
+    color: #47474f;
+    font-size: 18px;
+    line-height: 1.5;
+}
+.color button{
+    padding: 15px 33px;
+    border: 1px solid black;
+    background-color: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.color button a{
+    text-decoration: none;
+    color: #47474f;
+    font-size: 19px;
+    font-style: italic;
+}
+.color button:hover{
+    background-color: rgb(100, 209, 198);
+    color: white;
+    border-color: #7ec4bd;
+}
+.color button:hover a{
+    color:white;
+}
+.aim{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.aim h2{
+    font-size: 32px;
+    font-weight: 500;
+    position: relative;
+    margin-bottom: 105px;
+    color: #7ec4bd;
+}
+.aim h2::after{
+    height: 3px;
+    width: 80px;
+    background-color: #eee;
+    position: absolute;
+    top: 65px;
+    left: 47.5%;
+    content: "";
+}
+.aim .cards{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;  
+}
+.aim .cards .card{
+    width: 22%;
+}
+.aim .cards .card .card-img{
+    padding: 70px 40px;
+    background-color: #f5f5f5;
+}
+.aim .cards .card .card-img img{
+    width: 100px;
+}
+.aim .cards .card h3{
+    margin-top: 27px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+}
+.aim .cards .card p{
+    line-height: 1.4;
+    color: #5f5c5c;
+}
+.picture{
+    width: 100%;
+    padding-bottom: 100px;
+    background-color: #f5f5f5    
+}
+.picture .pic {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top:100px;
+}
+.picture .pic h2{
+    font-size: 32px;
+    font-weight: 500;
+    position: relative;
+    margin-bottom: 60px;
+    color: #7ec4bd;
+}
+.picture h2::before{
+    height: 4px;
+    width: 80px;
+    background-color: #e2e2e2;
+    position: absolute;
+    top: 65px;
+    left: 47.5%;
+    content: "";
+}
+.picture .pic .imag{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.picture .pic .imag .patch{
+    width: 300px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 40px;
+    padding-bottom: 30px;
+    cursor: pointer;
+    transition: 300ms;
+    border-radius: 5px;
+}
+.picture .pic .imag .patch:hover{
+   transform: translateY(-12px);
+}
+.picture .pic .imag .patch img{
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+    border-radius: 5px 5px 0px 0px ;
+    filter: grayscale(100%);
+}
+.picture .pic .imag .patch:hover img{
+    filter: grayscale(0);
+}
+.picture .pic  h3{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 17px;
+    font-weight: 400;
+    color: #7ec4bd;
+    letter-spacing: 1.8px;
+}
+.picture .pic p{
+    text-align: center;
+    font-size: 13px;
+    margin-top: 10px;
+    font-weight: 500;
+    color: #888;
+}
+.our-team{
+    width:100%;
+    text-align: center;
+}
+.our-team .team{
+    width: 80%;
+    margin: 80px auto 70px auto;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;   
+}
+.our-team h2{
+    font-size: 32px;   
+    font-weight: 400;
+    margin-top: 70px;
+    position: relative;
+    color: #7ec4bd;
+}
+.our-team h2::after{
+    height: 3px;
+    width: 80px;
+    background-color: #eee;
+    position: absolute;
+    top: 50px;
+    left: 47.5%;
+    content: "";
+}
+.our-team .team .cricle{
+    width: 20%;
+    padding: 15px 30px;
+}
+.our-team .team .cricle img{
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+    border-radius: 100%;
+    margin-bottom: 20px;
+}
+.our-team .team .cricle h3{
+    font-size: 17px;
+    line-height: 20px;
+    font-weight: 400;
+}
+.our-team .team .cricle p{
+    margin-top: 5px;
+    color: #888;
+    font-size: 16px;
+    font-style: italic;
+}
+.cricle .icons{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.cricle .icons i{
+    padding: 8px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.cricle .icons i:hover{
+    background-color: #7ec4bd;
+}
+.opinion{
+    width: 100%;
+    background-color: #f5f5f5;;
+    padding: 40px 0px 50px;
+}
+.opinion .x-logo{
+    width: 100%;
+    text-align: center;
+}
+.opinion .x-logo img{
+    width: 50px;
+    display: inline-block;
+}
+.opinion .open{
+    width: 60%;
+    display: flex;
+    margin: 40px auto auto;
+    justify-content: space-evenly;
+    position: relative;
+} 
+.opinion .open::after{
+    content: "";
+    height: 200px;
+    width: 1px;
+    background-color: black;
+    position: absolute;
+    left: 50%;
+}
+.opinion .open .card{
+    width: 45%;
+    text-align: center;
+}
+.opinion .open .card h1{
+    font-size: 25px;
+    margin: 20px auto 15px auto;
+}
+.opinion .open .card img{
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+    border-radius: 100%;
+    width: 55px;
+}
+.opinion .open .card p{
+    margin-top: 15px;
+    color: #888;
+    font-size: 12px;
+    font-weight: 400;
+}
+.touch{
+    width: 100%;
+    background-color: #7ec4bd;
+    text-align: center;
+    padding:80px 0px;
+}
+.touch h2{
+    font-size: 32px;
+    font-weight: 400;
+    color: #000000;
+    position: relative;
+}
+.touch h2::after{
+    height: 3px;
+    width: 80px;
+    background-color: #000000;
+    position: absolute;
+    top: 60px;
+    left: 47.5%;
+    content: "";
+}
+.touch .boxs{
+    width: 65%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+.touch .boxs .card{
+    width: 25%;
+    margin-top: 80px;
+    color: #5f5c5c;
+}
+.touch .boxs .card img{
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+    width: 55px;
+    margin-bottom: 10px;
+} 
+.spec-img{
+    width: 40px !important;
+    margin-top: -2px !important;
+}
+.touch .boxs .card h3{
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.touch .boxs .card p{
+    margin-bottom: 5px;
+    margin-top: 15px;
+}
+.touch .boxs .card a{
+    color: black;
+    text-decoration: none;
+    line-height: 2px;
+}
+.card .fa-brands{
+    font-size: 14px;
+}
+.inputs{
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    text-align: center;
+    padding: 50px 0px 5px 0px;
+}
+.inputs  input{
+    font-size: 16px;
+    background-color:hsla(0, 3%, 87%, 0.2);
+    border-radius: 5px ;
+    padding: 15px ;
+    width: 35%;
+    display: block;
+    margin: auto;
+    margin-bottom: 15px;
+    border: 1px solid hsla(0, 3%, 87%, 0.2);
+}
+.inputs textarea{
+    border: 1px solid hsla(0, 3%, 87%, 0.2);
+    background-color:hsla(0, 0%, 100%, 0.2);
+    padding: 15px ;
+    width: 35%;
+    border-radius: 5px;
+    font-size: 16px;
+    display: block;
+    margin: auto;
+} 
+.inputs button{
+    margin: 20px auto auto auto;
+    padding: 17px 50px;
+    background-color: transparent;
+    border: 1px solid #7ec4bd;
+    color: #7ec4bd;
+    font-size: 19px;
+    font-style: italic;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+.inputs button:hover{
+    background-color: #7ec4bd;
+    color: white;
+}
+.inputs img{
+    vertical-align: middle;
+    display: inline-block;
+    width: 50px;
+    margin-top: 30px;
+}
+.inputs .rights{
+    margin-top: 20px;
+}
+.inputs .rights p{
+    color: #b1b1b1;
+    line-height: 1.5;
+    font-size: 14px;
+}
+.inputs .rights p a{
+    text-decoration: none;
+    color: #7ec4bd;
+}
+.inputs .rights p a:hover{
+    color: blue;
+}
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px){
+    nav{
+        padding-bottom: 5px;
+    }
+    nav .nav-head{
+        justify-content: space-between;
+        width: 98%;
+        margin: auto;
+    }
+    nav .nav-head ul{
+        display: none;
+    }
+    .toglar i {
+        display: block;
+        margin: 16px 30px 0px 0px;
+        font-size: 18px;
+    }
+    nav .nav-head .logo h2{
+        font-size: 17px;
+        margin-top: 15px;
+        margin-left: 15px;
+    }
+    nav .nav-head .logo img{
+        width: 45px;
+        margin-top: 3px;
+    }
+    .head{
+        padding-top: 60px;
+        height: 45vh;
+        margin-top: 73px;
+    }
+    .head h1{
+        font-size: 27px;
+        width: 80%;
+        margin: auto auto 50px auto;
+        line-height: 1.3;
+        position: relative;
+    }
+    .head h1::after{
+        height: 3px;
+        width: 80px;
+        background-color: #fff;
+        position: absolute;
+        top: 110px;
+        left: 39.5%;
+        content: "";
+    }
+    .head  p{
+        font-size: 16px;
+    }
+    .color{
+        background-color: #fefec9;
+        width: 100%;
+        padding-bottom: 20px;
+        text-align: center;
+        margin-bottom: 60px;
+    }
+     .color img{
+        width: 45px;
+    }
+    .x-icon{
+        margin: -23px auto 20px auto;
+    }
+    .color p{
+        text-align: center;
+        margin-bottom: 40px;
+        color: #47474f;
+        font-size: 16px;
+        line-height: 1.5;
+        width: 95%;
+        margin: auto auto 40px auto;
+    }
+    .color button{
+        padding: 10px 30px;
+    }
+    .color button a{
+        font-size: 17px;
+    }
+    .aim{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .aim h2{
+        font-size: 26px;
+        width: 95%;
+        margin: auto auto 40px auto;
+        line-height: 1.5;
+        position: relative;
+    }
+    .aim h2::after{
+        height: 3px;
+        width: 55px;
+        top: 90px;
+        left: 43%; 
+    }
+    .aim .cards{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .aim .cards .card{
+        width: 90%;
+        margin-bottom: 30px;
+    }
+    .aim .cards .card h3{
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    .picture{
+        padding-bottom: 40px;
+    }
+    .picture .pic {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        padding-top:100px;
+    }
+    .picture .pic h2{
+        font-size: 32px;
+        font-weight: 500;
+        position: relative;
+        margin-bottom: 60px;
+        color: #7ec4bd;
+    }
+    .picture h2::before{
+        height: 4px;
+        width: 80px;
+        background-color: #e2e2e2;
+        position: absolute;
+        top: 65px;
+        left: 47.5%;
+        content: "";
+    }
+    .picture .pic .imag{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .picture .pic .imag .patch{
+        width: 90%;
+        margin: auto auto 40px auto;
+    }
+    .picture .pic  h3{
+        font-size: 20px;
+    }
+    .our-team .team{
+        width: 98%;
+        margin: 80px auto 70px auto;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .our-team .pic h2{
+        font-size: 32px;
+        margin-bottom: 60px;
+    }
+    .our-team h2::after{
+        top: 65px;
+        left: 40%;
+    }
+    .our-team .team .cricle{
+        width: 48%;
+        padding: 20px;
+    }
+    .opinion .open{
+        width: 100%;
+        margin: 20px auto auto;
+        flex-wrap: wrap;
+    } 
+    .opinion .open::after{
+        content: "";
+        height: 1px;
+        width: 80%;
+        background-color: black;
+        position: absolute;
+        top: 51%;
+        left: 10%;
+    }
+    .opinion .open .card{
+        width: 90%;
+        margin-bottom: 40px;
+    }
+    .spec-card{
+        margin-bottom: 0px !important;
+        padding-bottom: 10px !important;
+    }
+    .opinion .open .card h1{
+        font-size: 22px;
+    }
+    .touch{
+        padding: 50px 0px;
+    }
+    .touch h2{
+        font-size: 26px;
+    }
+    .touch h2::after{
+        height: 2px;
+        top: 56px;
+        left: 41%;
+    }
+    .touch .boxs{
+        flex-wrap: wrap;
+        margin-top: 40px;
+    }
+    .touch .boxs .card{
+        width: 90%;
+        margin-top: 40px;
+    }
+    .touch .boxs .card i{
+        margin-top: 10px;
+    }
+    .inputs{
+        width: 100%;
+        padding-bottom: 5px;
+    }
+    .inputs  input{
+        font-size: 14px;
+        width: 90%;
+    }
+    .inputs textarea{
+        width: 90%;
+        font-size: 14px;
+    } 
+    .inputs button{
+        padding: 12px 20px;
+        font-size: 14px;
+    }
+    .inputs img{
+        width: 40px;
+        margin-top: 20px;
+    }
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px){
+    nav{
+        padding-top: 15px;
+    }
+    nav .nav-head{
+        width: 90%;
+    }
+    nav .nav-head ul{
+        margin-right: -10px;
+    }
+    .toglar i {
+        display: none;
+    }
+     nav .nav-head ul li a{
+        padding: 0px 15px 10px;
+    }
+    .head{
+        padding-top: 100px;
+        height: 40vh;
+    }
+    .head h1{
+        font-size: 40px;
+        margin-bottom: 60px;
+        line-height: 1.5;
+    }
+    .head h1::after{
+        left: 43%;
+    }
+    .color{
+        padding-bottom: 40px;
+    }
+    .x-icon{
+        margin: -26px auto 30px auto;
+    }
+    .color p{
+        width: 90%;
+        margin: auto auto 40px auto;
+    }
+    .aim{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 100px;
+    }
+    .aim h2{
+        font-size: 30px;
+        margin-bottom: 100px;
+    }
+    .aim h2::after{
+        left: 44%;
+    }
+    .aim .cards{
+        width: 98%;
+        margin: auto;
+        flex-wrap: wrap;
+    }
+    .aim .cards .card{
+        width: 29%;
+    }
+    .picture{
+        width: 100%;
+        padding-bottom: 100px;
+        background-color: #f5f5f5    
+    }
+    .picture .pic {
+        width: 98%;
+    }
+    .picture .pic h2{
+        font-size: 30px;
+    }
+    .picture .pic .imag{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .picture .pic .imag .patch{
+        width: 210px;
+    }
+    .picture .pic  h3{
+        font-size: 20px;
+    }
+    .picture .pic p{
+        font-size: 14px;
+    }
+    .our-team .team{
+        width: 98%;
+    }
+    .our-team h2{
+        font-size: 30px;   
+    }
+    .our-team h2::after{
+        top: 55px;
+        left: 45%;
+    }
+    .our-team .team .cricle{
+        width: 25%;
+    }
+    .opinion .open{
+        width: 98%;
+    } 
+    .opinion .open::after{
+        left: 51.5%;
+    }
+    .opinion .open .card{
+        width: 48%;
+    }
+    .opinion .open .card h1{
+        font-size: 24px;
+        line-height: 1.5;
+    }
+    .touch{
+        padding:60px 0px;
+    }
+    .touch h2{
+        font-size: 30px;
+    }
+    .touch h2::after{
+        left: 45%;
+    }
+    .touch .boxs{
+        width: 90%;
+    }
+    .touch .boxs .card{
+        width: 30%;
+    }
+    .spec-img{
+        margin-top: -5px !important;
+    }
+    .inputs{
+        padding-bottom: 5px;
+    }
+    .inputs  input{
+        width: 60%;
+    }
+    .inputs textarea{
+        width: 60%;
+    } 
+    .inputs button{
+        padding: 16px 30px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px){
+    nav{
+        width: 100%;
+        background-color: white;
+        padding-top: 12px;
+        z-index: 4555555550;
+        position: fixed;
+        top: 0;
+    }
+    nav .nav-head{
+        width: 87%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    nav .nav-head ul{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 18px;
+        margin-right: -30px;
+    }
+    nav .nav-head ul li{
+        list-style:none;
+    }
+    .toglar i {
+        display: none;
+    }
+    nav .nav-head ul li a{
+        text-decoration: none;
+        padding: 0px 30px 10px;
+        color: #404040;
+        font-size: 14px;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+    nav .nav-head ul li a:hover{
+        border-bottom: 2px solid green;
+        color: rgb(100, 209, 198);
+    }
+    nav .nav-head .logo{
+        display: flex;
+        justify-content: center;
+        margin-left: 20px;
+    }
+    nav .nav-head .logo h2 {
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+    nav .nav-head .logo h2 a{
+        font-size: 20px;
+        font-weight: 400;
+        text-decoration: none;
+        color: rgb(87, 205, 193);
+        cursor: pointer;
+    }
+    .main nav .nav-head .logo img{
+        width: 50px;
+    }
+    .head{
+        margin-top: 85px;
+        text-align: center;
+        padding-top: 100px;
+        height: 55vh;
+        background-image: linear-gradient(180deg, rgba(100, 209, 198, 0.55), rgba(100, 209, 198, 0.55)),url(../images/download1.jpg);
+        background-position: 0% 0%, 50% 80%;
+        color: #fff;
+    }
+    .head h1{
+        font-size: 45px;
+        letter-spacing: 2px;
+        margin-bottom: 70px;
+        position: relative;
+    }
+    .head h1::after{
+        height: 3px;
+        width: 80px;
+        background-color: #fff;
+        margin:30px auto;
+        position: absolute;
+        top: 100px;
+        left: 47.5%;
+        content: "";
+    }
+    .head  p{
+        color: hsla(0, 0%, 100%, 0.81);
+        font-size: 18px;
+        font-style: italic;
+    }
+    .color{
+        background-color: #fefec9;
+        width: 100%;
+        height: auto;
+        padding-bottom: 20px;
+        text-align: center;
+        margin-bottom: 80px;
+    }
+     .color img{
+        width:50px;
+    }
+    .x-icon{
+        margin: -26px auto 30px auto;
+    }
+    .color p{
+        text-align: center;
+        margin-bottom: 40px;
+        color: #47474f;
+        font-size: 18px;
+        line-height: 1.5;
+    }
+    .color button{
+        padding: 15px 33px;
+        border: 1px solid black;
+        background-color: transparent;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    .color button a{
+        text-decoration: none;
+        color: #47474f;
+        font-size: 19px;
+        font-style: italic;
+    }
+    .color button:hover{
+        background-color: rgb(100, 209, 198);
+        color: white;
+        border-color: #7ec4bd;
+    }
+    .color button:hover a{
+        color:white;
+    }
+    .aim{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 100px;
+    }
+    .aim h2{
+        font-size: 32px;
+        font-weight: 500;
+        position: relative;
+        margin-bottom: 105px;
+        color: #7ec4bd;
+    }
+    .aim h2::after{
+        height: 3px;
+        width: 80px;
+        background-color: #eee;
+        position: absolute;
+        top: 65px;
+        left: 47.5%;
+        content: "";
+    }
+    .aim .cards{
+        width: 85%;
+        margin: auto;
+        display: flex;
+        justify-content: space-evenly;  
+    }
+    .aim .cards .card{
+        width: 22%;
+    }
+    .aim .cards .card .card-img{
+        padding: 70px 40px;
+        background-color: #f5f5f5;
+    }
+    .aim .cards .card .card-img img{
+        width: 100px;
+    }
+    .aim .cards .card h3{
+        margin-top: 27px;
+        margin-bottom: 15px;
+        font-size: 16px;
+        font-weight: 400;
+        color: black;
+    }
+    .aim .cards .card p{
+        line-height: 1.4;
+        color: #5f5c5c;
+    }
+    .picture{
+        width: 100%;
+        padding-bottom: 100px;
+        background-color: #f5f5f5    
+    }
+    .picture .pic {
+        width: 80%;
+        margin: auto;
+        text-align: center;
+        padding-top:100px;
+    }
+    .picture .pic h2{
+        font-size: 32px;
+        font-weight: 500;
+        position: relative;
+        margin-bottom: 60px;
+        color: #7ec4bd;
+    }
+    .picture h2::before{
+        height: 4px;
+        width: 80px;
+        background-color: #e2e2e2;
+        position: absolute;
+        top: 65px;
+        left: 47.5%;
+        content: "";
+    }
+    .picture .pic .imag{
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .picture .pic .imag .patch{
+        width: 300px;
+        background-color: rgb(255, 255, 255);
+        margin-top: 40px;
+        padding-bottom: 30px;
+        cursor: pointer;
+        transition: 300ms;
+        border-radius: 5px;
+    }
+    .picture .pic .imag .patch:hover{
+       transform: translateY(-12px);
+    }
+    .picture .pic .imag .patch img{
+        max-width: 100%;
+        vertical-align: middle;
+        display: inline-block;
+        border-radius: 5px 5px 0px 0px ;
+        filter: grayscale(100%);
+    }
+    .picture .pic .imag .patch:hover img{
+        filter: grayscale(0);
+    }
+    .picture .pic  h3{
+        text-align: center;
+        margin-top: 20px;
+        font-size: 17px;
+        font-weight: 400;
+        color: #7ec4bd;
+        letter-spacing: 1.8px;
+    }
+    .picture .pic p{
+        text-align: center;
+        font-size: 13px;
+        margin-top: 10px;
+        font-weight: 500;
+        color: #888;
+    }
+    .our-team{
+        width:100%;
+        text-align: center;
+    }
+    .our-team .team{
+        width: 80%;
+        margin: 80px auto 70px auto;
+        background-color: #ffffff;
+        display: flex;
+        justify-content: center;   
+    }
+    .our-team h2{
+        font-size: 32px;   
+        font-weight: 400;
+        margin-top: 70px;
+        position: relative;
+        color: #7ec4bd;
+    }
+    .our-team h2::after{
+        height: 3px;
+        width: 80px;
+        background-color: #eee;
+        position: absolute;
+        top: 50px;
+        left: 47.5%;
+        content: "";
+    }
+    .our-team .team .cricle{
+        width: 20%;
+        padding: 15px 30px;
+    }
+    .our-team .team .cricle img{
+        max-width: 100%;
+        vertical-align: middle;
+        display: inline-block;
+        border-radius: 100%;
+        margin-bottom: 20px;
+    }
+    .our-team .team .cricle h3{
+        font-size: 17px;
+        line-height: 20px;
+        font-weight: 400;
+    }
+    .our-team .team .cricle p{
+        margin-top: 5px;
+        color: #888;
+        font-size: 16px;
+        font-style: italic;
+    }
+    .cricle .icons{
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .cricle .icons i{
+        padding: 8px;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+    .cricle .icons i:hover{
+        background-color: #7ec4bd;
+    }
+    .opinion{
+        width: 100%;
+        background-color: #f5f5f5;;
+        padding: 40px 0px 50px;
+    }
+    .opinion .x-logo{
+        width: 100%;
+        text-align: center;
+    }
+    .opinion .x-logo img{
+        width: 50px;
+        display: inline-block;
+    }
+    .opinion .open{
+        width: 60%;
+        display: flex;
+        margin: 40px auto auto;
+        justify-content: space-evenly;
+        position: relative;
+    } 
+    .opinion .open::after{
+        content: "";
+        height: 200px;
+        width: 1px;
+        background-color: black;
+        position: absolute;
+        left: 50%;
+    }
+    .opinion .open .card{
+        width: 45%;
+        text-align: center;
+    }
+    .opinion .open .card h1{
+        font-size: 25px;
+        margin: 20px auto 15px auto;
+    }
+    .opinion .open .card img{
+        max-width: 100%;
+        vertical-align: middle;
+        display: inline-block;
+        border-radius: 100%;
+        width: 55px;
+    }
+    .opinion .open .card p{
+        margin-top: 15px;
+        color: #888;
+        font-size: 12px;
+        font-weight: 400;
+    }
+    .touch{
+        width: 100%;
+        background-color: #7ec4bd;
+        text-align: center;
+        padding:80px 0px;
+    }
+    .touch h2{
+        font-size: 32px;
+        font-weight: 400;
+        color: #000000;
+        position: relative;
+    }
+    .touch h2::after{
+        height: 3px;
+        width: 80px;
+        background-color: #000000;
+        position: absolute;
+        top: 60px;
+        left: 47.5%;
+        content: "";
+    }
+    .touch .boxs{
+        width: 65%;
+        margin: auto;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .touch .boxs .card{
+        width: 25%;
+        margin-top: 80px;
+        color: #5f5c5c;
+    }
+    .touch .boxs .card img{
+        max-width: 100%;
+        vertical-align: middle;
+        display: inline-block;
+        width: 55px;
+        margin-bottom: 10px;
+    } 
+    .spec-img{
+        width: 40px !important;
+        margin-top: -2px !important;
+    }
+    .touch .boxs .card h3{
+        margin-top: 10px;
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .touch .boxs .card p{
+        margin-bottom: 5px;
+        margin-top: 15px;
+    }
+    .touch .boxs .card a{
+        color: black;
+        text-decoration: none;
+        line-height: 2px;
+    }
+    .card .fa-brands{
+        font-size: 14px;
+    }
+    .inputs{
+        width: 100%;
+        background-color: black;
+        text-align: center;
+        text-align: center;
+        padding: 50px 0px 5px 0px;
+    }
+    .inputs  input{
+        font-size: 16px;
+        background-color:hsla(0, 3%, 87%, 0.2);
+        border-radius: 5px ;
+        padding: 15px ;
+        width: 35%;
+        display: block;
+        margin: auto;
+        margin-bottom: 15px;
+        border: 1px solid hsla(0, 3%, 87%, 0.2);
+    }
+    .inputs textarea{
+        border: 1px solid hsla(0, 3%, 87%, 0.2);
+        background-color:hsla(0, 0%, 100%, 0.2);
+        padding: 15px ;
+        width: 35%;
+        border-radius: 5px;
+        font-size: 16px;
+        display: block;
+        margin: auto;
+    } 
+    .inputs button{
+        margin: 20px auto auto auto;
+        padding: 17px 50px;
+        background-color: transparent;
+        border: 1px solid #7ec4bd;
+        color: #7ec4bd;
+        font-size: 19px;
+        font-style: italic;
+        border-radius: 5px;
+        text-align: center;
+        cursor: pointer;
+    }
+    .inputs button:hover{
+        background-color: #7ec4bd;
+        color: white;
+    }
+    .inputs img{
+        vertical-align: middle;
+        display: inline-block;
+        width: 50px;
+        margin-top: 30px;
+    }
+    .inputs .rights{
+        margin-top: 20px;
+    }
+    .inputs .rights p{
+        color: #b1b1b1;
+        line-height: 1.5;
+        font-size: 14px;
+    }
+    .inputs .rights p a{
+        text-decoration: none;
+        color: #7ec4bd;
+    }
+    .inputs .rights p a:hover{
+        color: blue;
+    }
+}
